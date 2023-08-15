@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { Button, Label, Input, Navbar, Nav, NavItem, Table, Card, CardBody } from "reactstrap";
+import { Button, Label, Input, Navbar, Nav, NavItem, Card, CardBody } from "reactstrap";
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from "axios";
 import validator from "validator";
