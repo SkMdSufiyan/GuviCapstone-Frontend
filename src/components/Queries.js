@@ -5,7 +5,7 @@ import ZenContext from '../contextProvider/ZenContext';
 
 
 const Queries = () => {
-    const serverUrl = process.env.REACT_APP_SERVER_BASE_URL; // Server URL
+    // const serverUrl = process.env.REACT_APP_SERVER_BASE_URL; // Server URL
     const navigate = useNavigate();
     const {studentID} = useParams();
 
