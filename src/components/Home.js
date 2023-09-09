@@ -26,11 +26,11 @@ const Home = () => {
           </Nav>
     </Navbar>
 
-    
-    <p style={{color : "red", fontSize : "small", margin : "0px"}}>Kindly open and close this link one or two times before using this site. </p>
-      <p style={{color : "red", fontSize : "small", margin : "0px"}}>Due to some Netlify deployment issue, it is not showing the data on opening it for the first time. </p>
+    <p className='app-suggestion-p'>When you have opened this application's link for the <b style={{color : "blue"}}>first time</b>, please wait for 20-30 seconds <b style={{color : "blue"}}>after submitting the requests for login, signup, or forgot password</b>.</p>
+    <p className='app-suggestion-p'>Due to Render's <b style={{color : "blue"}}>"spinning down on idle"</b> issue, the server may take a little longer time to start (when it is opened after a long time). </p>
       
-
+    <br />
+   
         <h5 style={{color: "blue"}}>Welcome to Zen application </h5>
         <p className='blue-color-p-class'>(zen student dashboard)</p>
         {/* A message will be displayed when an student logged out successfully */}
